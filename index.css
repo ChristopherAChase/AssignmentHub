@@ -16,14 +16,12 @@
 }
 html{
     background-color: #160D57;
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-}
-.index{
     background-image: url('images/background.png');
     background-size:cover;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
 }
 .smallLogo{
     display: none;
@@ -100,45 +98,4 @@ body.main{
     padding-left: 20px;
     flex: 1 1 auto ;
     border: 3px solid #160D57;
-}
-
-body.selectPage{
-    background-color: #160D57;
-    padding-top: 50px;
-    width: 75%;
-    min-height: 90%;
-    margin: auto;
-}
-.selectPage div {
-    background-color: #3B4D8F;
-    text-align: center;
-    vertical-align: center;
-    height: 495px;
-    width: 499px;
-    margin: auto;
-    border-radius: 50%;
-}
-.selectPage h1{
-    margin: 0;
-    padding: 0;
-    color: white;
-    vertical-align: center;
-    font-size: 550%;
-    font-family: albas;
-}
-.selectPage label{
-    font-size: 24px;
-    font-family: stein;
-    color: white;
-}
-.selectPage select{
-    font-size: 20px;
-    font-family: stein;
-    margin-left: 5px;
-}
-.selectLogo{
-    width: 510px;
-    margin-top: -7px;
-    margin-bottom: -75%;
-    margin-left: -5.5px;
 }
