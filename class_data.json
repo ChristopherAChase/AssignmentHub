@@ -1,0 +1,74 @@
+[
+    {
+        "name": "CIS 296 30C O - Adv MS Web Dev",
+        "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz",
+        "assignments": [
+            {
+                "name": "The fifth part of the Case Study",
+                "due_date": "Monday 3/22, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=554d4ec8-483e-4172-8c3c-789c6d4d2cf9",
+                "instructions": "<p>In the fifth part of the case study:</p><p>1. Update incidents</p><p>2. Adding filtering to a page</p>",
+                "files": [
+                    {
+                        "name": "Fifth-partofthe-casestudy.docx",
+                        "url": "https://stinet.southeasttech.edu/ICS/icsfs/Fifth-partofthe-casestudy.docx?target=1ebf4c56-3ea8-4109-aade-db0d526eb9ef"
+                    }
+                ]
+            },
+            {
+                "name": "Build the Quarterly Sales application",
+                "due_date": "Thursday 3/25, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=129be8d3-ec93-4081-9e91-4469a2cee448",
+                "instructions": "<p>In this assignment, you ll validate the data a user enters in a data-driven web app. The attached document lists the requirements of this project.</p>",
+                "files": [
+                    {
+                        "name": "The Quarterly Sales app.docx",
+                        "url": "https://stinet.southeasttech.edu/ICS/icsfs/The_Quarterly_Sales_app.docx?target=4284bbd5-1790-4c9b-8d60-f12a7ccbcaa9"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CIS 293 30C O - Advanced Technologies",
+        "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__293/2020_SP-CIS__293-30C__O/Coursework.jnz",
+        "assignments": [
+            {
+                "name": "Status Report 3 - 2",
+                "due_date": "Tuesday 3/23, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__293/2020_SP-CIS__293-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=21ffa331-41ce-4fdc-a3ab-5f17333be642",
+                "instructions": "<p>Hand in a Word document which gives a status report on where you are at in your project.  This should be between 1/2 a page to a page.</p>"
+            },
+            {
+                "name": "Presentation 3",
+                "due_date": "Thursday 4/1, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__293/2020_SP-CIS__293-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=78bfb75a-1121-48b6-93ab-e23a15798db9",
+                "instructions": "<p>Please submit all work (PowerPoint, software that you wrote, etc) and your team evaluation form - which includes an evaluation of yourself.</p>",
+                "files": [
+                    {
+                        "name": "Team Evaluation",
+                        "url": "https://stinet.southeasttech.edu/ICS/icsfs/TEAM_MEMBER_EVALUATION.docx?target=7e2c569b-43c6-442d-8b48-0e10cb49ec23"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CIS 299 1C - Internship",
+        "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__299/2020_SP-CIS__299-1C/Coursework.jnz",
+        "assignments": [
+            {
+                "name": "Weekly Report - Week 9",
+                "due_date": "Yesterday, Accepting late work",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__299/2020_SP-CIS__299-1C/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=7d0981f1-578e-4cac-876f-27cfe7a12943",
+                "instructions": "<p>2-day extension beyond posted due date</p><p>NOTE Spring Break was extended for a week due to Covid-19 virus. Students may be able to continue working at their internship sites this week and should submit this weekly report. If they did not work this week they should notify their instructor.</p><div>The student must complete the attached Weekly Report Form and submit it to their instructor on a regular schedule agreed upon by the instructor, student, and internship supervisor. The form includes a time-log of the hours the student worked (which the internship supervisor needs to sign), and a short list of questions and observations for the week (that the intern can complete <em>after </em>getting supervisor's signature on the first page). If the student has permission to do so, it would be interesting if they could submit small samples of code that they've worked on during the week. </div><div>You can upload a scanned version, or take a <em>good</em> photo and upload that. </div>"
+            },
+            {
+                "name": "Weekly Report - Week #10",
+                "due_date": "Tuesday 3/23, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__299/2020_SP-CIS__299-1C/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=a1aab203-7b5e-4fcf-8dbd-531f24b44f94",
+                "instructions": "<p>2-day extension beyond posted due date</p><div>The student must complete the attached Weekly Report Form and submit it to their instructor on a regular schedule agreed upon by the instructor, student, and internship supervisor. The form includes a time-log of the hours the student worked (which the internship supervisor needs to sign), and a short list of questions and observations for the week (that the intern can complete <em>after </em>getting supervisor's signature on the first page). If the student has permission to do so, it would be interesting if they could submit small samples of code that they've worked on during the week. </div><div>You can upload a scanned version, or take a <em>good</em> photo and upload that. </div>"
+            }
+        ]
+    }
+]

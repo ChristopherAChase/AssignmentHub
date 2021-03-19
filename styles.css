@@ -1,0 +1,144 @@
+@font-face{
+    font-family: albaS;
+    src: url(fonts/ALBAS___.TTF);
+}
+@font-face{
+    font-family: alba;
+    src:url(fonts/ALBA____.TTF);
+}
+@font-face{
+    font-family: stein;
+    src: url(fonts/Literal_Reg.otf);
+}
+@font-face{
+    font-family: steinB;
+    src: url(fonts/Literal_Bold.otf);
+}
+html{
+    background-color: #160D57;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.index{
+    background-image: url('images/background.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.smallLogo{
+    display: none;
+    width: 25px;
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+}
+body.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #3B4D8F;
+    min-width: 92%;
+    max-width: 95%;
+    min-height: 92%;
+    max-height:95%;
+    margin: 30px;
+    border-radius: 30px;
+}
+.mainInline{
+    width: 100%;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+}
+.main h1{
+    font-family: alba;
+    font-size: 37px;
+    text-align: center;
+    color: white;
+    vertical-align: center;
+    width: 35%;
+    padding-left: 40px;
+}
+.classButtons{
+    display: flex;
+    justify-content:flex-end;
+    min-width: auto;
+    max-width: 65%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    column-span: 4;
+}
+.classButtons button{
+    cursor: pointer;
+    font-family: steinB;
+    color: white;
+    font-size: 16px;
+    background-color: #E84A35;
+    border-radius: 20px;
+    margin-left: 5px;
+    min-width: 30%;
+    max-width: auto;
+    height: 32px;
+}
+.classButtons button.active{
+    background-color: #ED8734;
+}
+.display{
+    display: flex;
+    clear: both;
+    background-color: white;
+    position:static;
+    width: auto;
+    height: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    flex: 1 1 auto ;
+    border: 3px solid #160D57;
+}
+
+body.selectPage{
+    background-color: #160D57;
+    padding-top: 50px;
+    width: 75%;
+    min-height: 90%;
+    margin: auto;
+}
+.selectPage div {
+    background-color: #3B4D8F;
+    text-align: center;
+    vertical-align: center;
+    height: 495px;
+    width: 499px;
+    margin: auto;
+    border-radius: 50%;
+}
+.selectPage h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    vertical-align: center;
+    font-size: 550%;
+    font-family: albas;
+}
+.selectPage label{
+    font-size: 24px;
+    font-family: stein;
+    color: white;
+}
+.selectPage select{
+    font-size: 20px;
+    font-family: stein;
+    margin-left: 5px;
+}
+.selectLogo{
+    width: 510px;
+    margin-top: -7px;
+    margin-bottom: -75%;
+    margin-left: -5.5px;
+}
