@@ -1,62 +1,62 @@
-@font-face{
-    font-family: albaS;
-    src: url(fonts/ALBAS___.TTF);
+@font-face {
+  font-family: albaS;
+  src: url(fonts/ALBAS___.TTF);
 }
-@font-face{
-    font-family: alba;
-    src:url(fonts/ALBA____.TTF);
+@font-face {
+  font-family: alba;
+  src: url(fonts/ALBA____.TTF);
 }
-@font-face{
-    font-family: stein;
-    src: url(fonts/Literal_Reg.otf);
+@font-face {
+  font-family: stein;
+  src: url(fonts/Literal_Reg.otf);
 }
-@font-face{
-    font-family: steinB;
-    src: url(fonts/Literal_Bold.otf);
+@font-face {
+  font-family: steinB;
+  src: url(fonts/Literal_Bold.otf);
 }
-html{
-    background-color: #160D57;
-    height: 100%;
-    width: 100%;
-    margin: 0px;
+html {
+  background-color: #160d57;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
 }
-body{
-    background-color: #160D57;
-    padding-top: 50px;
-    width: 75%;
-    min-height: 90%;
-    margin: auto;
+body {
+  background-color: #160d57;
+  padding-top: 50px;
+  width: 75%;
+  min-height: 90%;
+  margin: auto;
 }
 div {
-    background-color: #3B4D8F;
-    text-align: center;
-    vertical-align: center;
-    height: 495px;
-    width: 499px;
-    margin: auto;
-    border-radius: 50%;
+  background-color: #3b4d8f;
+  text-align: center;
+  vertical-align: center;
+  height: 495px;
+  width: 499px;
+  margin: auto;
+  border-radius: 50%;
 }
-h1{
-    margin: 0;
-    padding: 0;
-    color: white;
-    vertical-align: center;
-    font-size: 550%;
-    font-family: albas;
+h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+  vertical-align: center;
+  font-size: 550%;
+  font-family: albas;
 }
-label{
-    font-size: 24px;
-    font-family: stein;
-    color: white;
+label {
+  font-size: 24px;
+  font-family: stein;
+  color: white;
 }
-select{
-    font-size: 20px;
-    font-family: stein;
-    margin-left: 5px;
+select {
+  font-size: 20px;
+  font-family: stein;
+  margin-left: 5px;
 }
-img{
-    width: 510px;
-    margin-top: -7px;
-    margin-bottom: -75%;
-    margin-left: -5.5px;
+img {
+  width: 510px;
+  margin-top: -7px;
+  margin-bottom: -75%;
+  margin-left: -5.5px;
 }

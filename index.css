@@ -1,101 +1,101 @@
-@font-face{
-    font-family: albaS;
-    src: url(fonts/ALBAS___.TTF);
+@font-face {
+  font-family: albaS;
+  src: url(fonts/ALBAS___.TTF);
 }
-@font-face{
-    font-family: alba;
-    src:url(fonts/ALBA____.TTF);
+@font-face {
+  font-family: alba;
+  src: url(fonts/ALBA____.TTF);
 }
-@font-face{
-    font-family: stein;
-    src: url(fonts/Literal_Reg.otf);
+@font-face {
+  font-family: stein;
+  src: url(fonts/Literal_Reg.otf);
 }
-@font-face{
-    font-family: steinB;
-    src: url(fonts/Literal_Bold.otf);
+@font-face {
+  font-family: steinB;
+  src: url(fonts/Literal_Bold.otf);
 }
-html{
-    background-color: #160D57;
-    background-image: url('images/background.png');
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    margin: 0px;
+/*Flex*/
+body,
+.mainInline,
+.classButtons,
+.display {
+  display: flex;
 }
-.smallLogo{
-    display: none;
-    width: 25px;
-    position: absolute;
-    bottom: 7px;
-    right: 7px;
+html {
+  background-color: #160d57;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
 }
-body.main{
-    display: flex;
-    flex-direction: column;
-    background-color: #3B4D8F;
-    min-width: 92%;
-    max-width: 95%;
-    min-height: 92%;
-    max-height:95%;
-    margin: 30px;
-    border-radius: 30px;
+.smallLogo {
+  display: none;
+  width: 25px;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
 }
-.mainInline{
-    width: 100%;
-    clear: both;
-    display: flex;
-    flex-direction: row;
+body {
+  flex-direction: column;
+  background-color: #3b4d8f;
+  min-width: 92%;
+  max-width: 95%;
+  min-height: 92%;
+  max-height: 95%;
+  margin: 30px;
+  border-radius: 30px;
 }
-.main h1{
-    font-family: alba;
-    font-size: 37px;
-    text-align: center;
-    color: white;
-    vertical-align: center;
-    width: 35%;
-    padding-left: 40px;
+.mainInline {
+  width: 100%;
+  clear: both;
+  flex-direction: row;
 }
-.classButtons{
-    display: flex;
-    justify-content:flex-end;
-    min-width: auto;
-    max-width: 65%;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 25px;
-    column-span: 4;
+h1 {
+  font-family: alba;
+  font-size: 37px;
+  text-align: center;
+  color: white;
+  width: 35%;
+  padding-left: 40px;
 }
-.classButtons button{
-    cursor: pointer;
-    font-family: steinB;
-    color: white;
-    font-size: 16px;
-    background-color: #E84A35;
-    border-radius: 20px;
-    margin-left: 5px;
-    min-width: 30%;
-    max-width: auto;
-    height: 32px;
+.classButtons {
+  justify-content: flex-end;
+  min-width: auto;
+  max-width: 65%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 25px;
 }
-.classButtons button.active{
-    background-color: #ED8734;
+.classButtons button {
+  cursor: pointer;
+  font-family: steinB;
+  color: white;
+  font-size: 16px;
+  background-color: #e84a35;
+  border-radius: 20px;
+  margin-left: 5px;
+  min-width: 30%;
+  max-width: auto;
+  height: 32px;
 }
-.display{
-    display: flex;
-    clear: both;
-    background-color: white;
-    position:static;
-    width: auto;
-    height: auto;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    flex: 1 1 auto ;
-    border: 3px solid #160D57;
+.classButtons button.active {
+  background-color: #ed8734;
+}
+.display {
+  background-color: white;
+  position: static;
+  width: auto;
+  height: auto;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  flex: 1 1 auto;
+  border: 3px solid #160d57;
 }
