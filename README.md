@@ -11,7 +11,7 @@ AssignmentHub is a web application that allows a user to have all of their schoo
 
 ## Installation
 1. Clone the repo into your directory `git clone git@github.com:ChristopherAChase/AssignmentHub.git <directory name>`
-2. Make the directory you just cloned the repo into your current directory: `cd <directory name from step 1`
+2. Make the directory you just cloned the repo into your current directory: `cd <directory name from step 1>`
 3. Install the application dependencies: `npm install`
 4. Then you'll be able to run the application: `npm start`
 
