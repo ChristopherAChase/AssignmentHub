@@ -36,13 +36,58 @@ div {
   margin: auto;
   border-radius: 50%;
 }
+img {
+  width: 510px;
+  margin-top: -7px;
+  margin-bottom: -75%;
+  margin-left: -5.5px;
+}
 h1 {
   margin: 0;
+  margin-top: -10px;
   padding: 0;
   color: white;
   vertical-align: center;
   font-size: 550%;
   font-family: albas;
+}
+form{
+  margin-top: -50px;
+  justify-content: center;
+  display: inline-block;
+}
+p{
+  font-family: stein;
+  color: white;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+.logLabel{
+  z-index: 1;
+  display: inline-block;
+  text-align: end;
+  width: 125px;
+  position: relative;
+  margin-top: 5px;
+}
+.textbox{
+  font-size: 20px;
+  border-radius: 7px;
+  border-color: transparent;
+  float:right;
+  z-index: 1;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 180px;
+}
+#submit{
+  font-family: stein;
+  font-size: 18px;
+  border-radius: 7px;
+  border-color: transparent;
+  margin-top: 15px;
+  width: 65px;
 }
 label {
   font-size: 24px;
@@ -53,10 +98,4 @@ select {
   font-size: 20px;
   font-family: stein;
   margin-left: 5px;
-}
-img {
-  width: 510px;
-  margin-top: -7px;
-  margin-bottom: -75%;
-  margin-left: -5.5px;
 }
