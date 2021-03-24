@@ -15,7 +15,8 @@
   src: url(../fonts/Literal_Bold.otf);
 }
 /*Flex*/
-body,
+/* body, */
+.AssignmentBody
 .mainInline,
 .classButtons,
 .display {
@@ -23,12 +24,33 @@ body,
 }
 html {
   background-color: #160d57;
+}
+#root{
+  height: 100vh;
+}
+.AssignmentPage{
   background-image: url("../images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
   height: 100%;
   width: 100%;
   margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.AssignmentBody{
+  flex-direction: column;
+  background-color: #3b4d8f;
+  min-width: 92%;
+  max-width: 95%;
+  /* min-height: 92%; */
+  height: 95%;
+  /* margin: 30px; */
+  margin: auto;
+  border-radius: 30px;
 }
 .smallLogo {
   display: none;
@@ -37,28 +59,19 @@ html {
   bottom: 7px;
   right: 7px;
 }
-body {
-  flex-direction: column;
-  background-color: #3b4d8f;
-  min-width: 92%;
-  max-width: 95%;
-  min-height: 92%;
-  max-height: 95%;
-  margin: 30px;
-  border-radius: 30px;
-}
 .mainInline {
   width: 100%;
+  height: 18%;
   clear: both;
   flex-direction: row;
 }
-h1 {
+.AssignmentHeader {
   font-family: alba;
-  font-size: 37px;
+  font-size: 3em;
   text-align: center;
   color: white;
   width: 35%;
-  padding-left: 40px;
+  padding: 0 .5em 0 1em;
 }
 .classButtons {
   justify-content: flex-end;
@@ -88,11 +101,11 @@ h1 {
   background-color: white;
   position: static;
   width: auto;
-  height: auto;
+  height: 79%;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 3%;
   margin-left: 20px;
   margin-right: 20px;
   padding-left: 20px;

@@ -14,20 +14,20 @@
   font-family: steinB;
   src: url(../fonts/Literal_Bold.otf);
 }
-html {
+/* html {
   background-color: #160d57;
   height: 100%;
   width: 100%;
   margin: 0px;
-}
-body {
+} */
+/* body {
   background-color: #160d57;
   padding-top: 50px;
   width: 75%;
   min-height: 90%;
   margin: auto;
-}
-div {
+} */
+/* div {
   background-color: #3b4d8f;
   text-align: center;
   vertical-align: center;
@@ -35,14 +35,28 @@ div {
   width: 499px;
   margin: auto;
   border-radius: 50%;
+} */
+.selectPage {
+  background-color: #160d57;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+
 }
-img {
+.selectBody{
+  background-color: #160d57;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 50px;
+  height: 495px;
+  width: 499px;
+  margin: auto;
+}
+.circleImage {
   width: 510px;
-  margin-top: -7px;
   margin-bottom: -75%;
-  margin-left: -5.5px;
 }
-h1 {
+.selectHeader {
   margin: 0;
   margin-top: -10px;
   padding: 0;
@@ -74,7 +88,7 @@ p{
   font-size: 20px;
   border-radius: 7px;
   border-color: transparent;
-  float:right;
+  /* float:right; */
   z-index: 1;
   position: relative;
   margin-top: 5px;
