@@ -9,6 +9,12 @@ AssignmentHub is a web application that allows a user to have all of their schoo
 * Description/Additional Information
 * Files that are required for the assignment
 
+## Installation
+1. Clone the repo into your directory `git clone git@github.com:ChristopherAChase/AssignmentHub.git <directory name>`
+2. Make the directory you just cloned the repo into your current directory: `cd <directory name from step 1>`
+3. Install the application dependencies: `npm install`
+4. Then you'll be able to run the application: `npm start`
+
 ## How It Works
 
 A user registers/logs into their account. On the user's first time signing in, they will be prompted to add/remove the school(s) they attend from the list of available schools. Then they will enter their credentials for that school's website. From this point on, when the user signs in, this step will not be needed
