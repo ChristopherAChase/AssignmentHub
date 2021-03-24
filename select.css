@@ -71,7 +71,7 @@ p{
   margin-top: 5px;
 }
 .textbox{
-  font-size: 20px;
+  background-color: white;
   border-radius: 7px;
   border-color: transparent;
   float:right;
@@ -80,6 +80,14 @@ p{
   margin-top: 5px;
   margin-left: 10px;
   width: 180px;
+  height: auto;
+}
+.textbox input{
+  font-size: 20px;
+  padding: 2px;
+  width: 170px;
+  border-radius: 7px;
+  border-color: transparent;
 }
 #submit{
   font-family: stein;

@@ -18,14 +18,16 @@
 body,
 .mainInline,
 .classButtons,
-.display {
+.display{
   display: flex;
 }
 html {
   background-color: #160d57;
   background-image: url("images/background.png");
-  background-size: cover;
+  background-size: 100%, 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   height: 100%;
   width: 100%;
   margin: 0px;
@@ -95,7 +97,57 @@ h1 {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  padding-top: 20px;
   padding-left: 20px;
+  padding-bottom: -10px;
   flex: 1 1 auto;
   border: 3px solid #160d57;
+}
+#classDiv{
+  float:left;
+  flex-direction:column;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 60%;
+}
+#assignmentDiv{
+  float: right;
+  width: 30%;
+}
+#grade{
+  font-size: 30px;
+  font-family: stein;
+  color: white;
+  background-color: #160d57;
+  height: 20%;
+  border-radius: 20px;
+  width: fit-content;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#classInfo{
+  font-family: stein;
+  color: white;
+  background-color: #160d57;
+  padding: 20px;
+  width: 50%;
+  height: 60%;
+  border-radius: 20px;
+  margin-bottom: -12px;
+}
+#classInfo h3{
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+#classInfo p{
+  overflow: auto;
+  height: 250px;
+  padding-right: 5px;
+}
+#assignment{
+  font-family: stein;
+  color: white;
+  background-color: #160d57;
+  padding: 20px;
+  border-radius: 20px;
 }
