@@ -1,38 +1,25 @@
 import React, { useState } from 'react';
+import Assignments from './Assignments';
 import Select from './Select'
 import Login from './Login'
 // import '../styles/App.css';
 
 function App() {
-  const [page, setpage] = useState('select');
+  const [page, setpage] = useState('login');
 
-  const handleSelect = (value) => {
+  const changePage = (value) => {
     setpage(value)
   }
 
-  if (page === 'select') {
-    return <Select selectOption={handleSelect} />
+  if (page === 'login') {
+    return <Login changePage={changePage} />
   }
-  else if (page === 'login') {
-    return <Login buttonPress={handleSelect} />
+  else if (page === 'select') {
+    return <Select changePage={changePage} />
   }
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  else if (page === 'assignments') {
+    return <Assignments changePage={changePage} />
+  }
 }
 
 export default App;
