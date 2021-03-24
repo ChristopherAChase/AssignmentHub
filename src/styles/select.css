@@ -1,0 +1,106 @@
+@font-face {
+  font-family: albaS;
+  src: url(../fonts/ALBAS___.TTF);
+}
+@font-face {
+  font-family: alba;
+  src: url(../fonts/ALBA____.TTF);
+}
+@font-face {
+  font-family: stein;
+  src: url(../fonts/Literal_Reg.otf);
+}
+@font-face {
+  font-family: steinB;
+  src: url(../fonts/Literal_Bold.otf);
+}
+html {
+  background-color: #160d57;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+body {
+  background-color: #160d57;
+  padding-top: 50px;
+  width: 75%;
+  min-height: 90%;
+  margin: auto;
+}
+div {
+  background-color: #3b4d8f;
+  text-align: center;
+  vertical-align: center;
+  height: 495px;
+  width: 499px;
+  margin: auto;
+  border-radius: 50%;
+}
+img {
+  width: 510px;
+  margin-top: -7px;
+  margin-bottom: -75%;
+  margin-left: -5.5px;
+}
+h1 {
+  margin: 0;
+  margin-top: -10px;
+  padding: 0;
+  color: white;
+  vertical-align: center;
+  font-size: 550%;
+  font-family: albas;
+}
+form{
+  margin-top: -50px;
+  justify-content: center;
+  display: inline-block;
+}
+p{
+  font-family: stein;
+  color: white;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+.logLabel{
+  z-index: 1;
+  display: inline-block;
+  text-align: end;
+  width: 125px;
+  position: relative;
+  margin-top: 5px;
+}
+.textbox{
+  font-size: 20px;
+  border-radius: 7px;
+  border-color: transparent;
+  float:right;
+  z-index: 1;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 180px;
+}
+
+#submit, #cancel{
+  font-family: stein;
+  font-size: 18px;
+  border-radius: 7px;
+  border-color: transparent;
+  margin-top: 15px;
+}
+
+#submit{
+  margin-left: 1.25em;
+}
+
+label {
+  font-size: 24px;
+  font-family: stein;
+  color: white;
+}
+select {
+  font-size: 20px;
+  font-family: stein;
+  margin-left: 5px;
+}
