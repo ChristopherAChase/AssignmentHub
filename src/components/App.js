@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Assignments from './Assignments';
+import Assignments from './Courses';
 import Select from './Select';
 import Login from './Login';
 // import '../styles/App.css';
