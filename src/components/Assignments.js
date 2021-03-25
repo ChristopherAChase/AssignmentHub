@@ -1,28 +1,34 @@
-import React from 'react'
-import '../styles/index.css'
+import React, { useState } from 'react';
+import '../styles/index.css';
 
 const Assignments = (props) => {
-    return (
-        <div className="AssignmentPage">
-            <div className="AssignmentBody">
-                <div className="mainInline">
-                    <h1 className="AssignmentHeader">Assignment App</h1>
-                    <div className="classButtons">
-                        <button>Class one</button>
-                        <button>Class two</button>
-                        <button>Class three</button>
-                        <button>Class four</button>
-                        <button>Class five</button>
-                        <button>Class six</button>
-                    </div>
-                </div>
-                <div className="display">
+	const courses = props.pageData.map((course) => course);
+	const [ currentCourse, selectCurrentCourse ] = useState(courses[0].name);
 
-                </div>
-
-            </div>
-        </div>
-    );
+	return (
+		<div className="AssignmentPage">
+			<div className="AssignmentBody">
+				<div className="mainInline">
+					<h1 className="AssignmentHeader">Assignment App</h1>
+					<div className="classButtons">
+						{courses.map((course) => (
+							<button
+								className={currentCourse === course.name ? 'active' : ''}
+								onClick={() => selectCurrentCourse(course.name)}
+							>
+								{course.name}
+							</button>
+						))}
+					</div>
+				</div>
+				<div className="display">
+					<p style={{ color: 'black', fontSize: '1em' }}>
+						{JSON.stringify(courses.filter((course) => course.name === currentCourse))}
+					</p>
+				</div>
+			</div>
+		</div>
+	);
 };
 
-export default Assignments
+export default Assignments;
