@@ -11,23 +11,25 @@ export default function Select(props) {
 			username: $('#username').val(),
 			password: $('#password').val()
 		};
+		if (creds.password && creds.username) {
+			const key = process.env.REACT_APP_SECRET_KEY;
 
-		const key = process.env.REACT_APP_SECRET_KEY;
+			// Our nonce must be a 24 bytes Buffer (or Uint8Array)
+			const nonce = nacl.randomBytes(24);
 
-		// Our nonce must be a 24 bytes Buffer (or Uint8Array)
-		const nonce = nacl.randomBytes(24);
+			// Our secret key must be a 32 bytes Buffer (or Uint8Array)
+			const secretKey = Buffer.from(key, 'utf8');
 
-		// Our secret key must be a 32 bytes Buffer (or Uint8Array)
-		const secretKey = Buffer.from(key, 'utf8');
+			// Make sure your data is also a Buffer of Uint8Array
+			const secretData = Buffer.from(creds.password, 'utf8');
+			const encrypted = nacl.secretbox(secretData, nonce, secretKey);
 
-		// Make sure your data is also a Buffer of Uint8Array
-		const secretData = Buffer.from(creds.password, 'utf8');
-		const encrypted = nacl.secretbox(secretData, nonce, secretKey);
+			// We can now store our encrypted result and our nonce somewhere
+			creds.password = `${utils.encodeBase64(nonce)}:${utils.encodeBase64(encrypted)}`;
 
-		// We can now store our encrypted result and our nonce somewhere
-		creds.password = `${utils.encodeBase64(nonce)}:${utils.encodeBase64(encrypted)}`;
+			scrapeSite(creds);
+		}
 
-		scrapeSite(creds);
 	};
 
 	const scrapeSite = (creds) => {
@@ -39,7 +41,7 @@ export default function Select(props) {
 			dataType: 'JSON',
 			success: (data) => {
 				props.storeResponse(data);
-                props.changePage('assignments')
+				props.changePage('assignments')
 			}
 		});
 	};
