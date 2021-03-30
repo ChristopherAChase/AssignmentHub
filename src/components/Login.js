@@ -8,14 +8,11 @@ import '../styles/Login.css';
 
 export default function Select(props) {
 	const handleLogin = () => {
-		// const creds = {
-		// 	username: $('#username').val(),
-		// 	password: $('#password').val()
-		// };
 		const creds = {
-			username: 'christopher.chase',
-			password: '@lyssaZell1'
+			username: $('#username').val(),
+			password: $('#password').val()
 		};
+
 
 		if (creds.password && creds.username) {
 			const key = process.env.REACT_APP_SECRET_KEY;
