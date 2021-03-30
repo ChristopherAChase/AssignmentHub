@@ -1,16 +1,22 @@
 import React from 'react';
 import nacl from 'tweetnacl';
 import utils from 'tweetnacl-util';
+
 import $ from 'jquery';
 import logo4 from '../images/logo4.png';
-import '../styles/select.css';
+import '../styles/Login.css';
 
 export default function Select(props) {
 	const handleLogin = () => {
+		// const creds = {
+		// 	username: $('#username').val(),
+		// 	password: $('#password').val()
+		// };
 		const creds = {
-			username: $('#username').val(),
-			password: $('#password').val()
+			username: 'christopher.chase',
+			password: '@lyssaZell1'
 		};
+
 		if (creds.password && creds.username) {
 			const key = process.env.REACT_APP_SECRET_KEY;
 
@@ -29,7 +35,6 @@ export default function Select(props) {
 
 			scrapeSite(creds);
 		}
-
 	};
 
 	const scrapeSite = (creds) => {
@@ -41,30 +46,31 @@ export default function Select(props) {
 			dataType: 'JSON',
 			success: (data) => {
 				props.storeResponse(data);
-				props.changePage('assignments')
+				props.changePage('assignments');
 			}
 		});
 	};
 
 	return (
-		<div className="selectPage">
-			<div className="selectBody">
+		<div className="LoginPage">
+			<div className="LoginBody">
 				<img className="circleImage" src={logo4} />
-				<h1 className="selectHeader">Welcome</h1>
-				<form onSubmit={(e) => e.preventDefault()}>
-					<p>Enter school login</p>
-					<p id="errorMessage" style={{ color: 'white', fontSize: '1em', display: 'none' }}>
+				<h1 className="LoginHeader">Welcome</h1>
+				<form id="loginForm" onSubmit={(e) => e.preventDefault()}>
+					<p className="whiteFont">Enter school login</p>
+					<p id="errorMessage" style={{ display: 'none' }}>
 						<strong>
 							<u>Invalid Credentials Please Try again</u>
 						</strong>
 					</p>
-					<label className="logLabel">Username: </label>
-					<input type="text" id="username" className="textbox" placeholder="School Username" required />
-					<br />
-					<label className="logLabel">Password:</label>
-					<input type="password" id="password" className="textbox" placeholder="Password" required />
-					<br />
-					{/* <input type="button" id="cancel" onClick={() => props.changePage('select')} value="Back" /> */}
+					<div className="formRow">
+						<label className="loginLabel whiteFont">Username: </label>
+						<input type="text" id="username" className="textbox" placeholder="School Username" required />
+					</div>
+					<div className="formRow">
+						<label className="loginLabel whiteFont">Password:</label>
+						<input type="password" id="password" className="textbox" placeholder="Password" required />
+					</div>
 					<input type="submit" id="submit" name="submit" value="Go!" onClick={() => handleLogin()} />
 				</form>
 			</div>

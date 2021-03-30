@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Assignments from './Courses';
 import Select from './Select';
 import Login from './Login';
-// import '../styles/App.css';
+import '../styles/Base.css';
 
 function App() {
 	const [ page, setpage ] = useState('login');

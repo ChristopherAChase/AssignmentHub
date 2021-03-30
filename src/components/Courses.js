@@ -1,15 +1,16 @@
-import { getJSON } from 'jquery';
 import React, { useState } from 'react';
-import '../styles/index.css';
+import ClassInfoPanel from './ClassInfoPanel';
+import AssignmentPanel from './AssignmentPanel';
+import '../styles/AssignmentPage.css';
 
 const Assignments = (props) => {
 	const courses = props.pageData.map((course) => course);
-	const [ currentCourse, selectCurrentCourse ] = useState(props.pageData[0]);
+	const [ currentCourse, selectCurrentCourse ] = useState(courses[0]);
 	const [ assignments, setAssignments ] = useState(currentCourse.assignments);
 
 	const changeCourse = (courseName) => {
 		const course = props.pageData.filter((course) => course.name === courseName);
-		selectCurrentCourse(course);
+		selectCurrentCourse(course[0]);
 		setAssignments(course[0].assignments);
 	};
 
@@ -29,14 +30,10 @@ const Assignments = (props) => {
 						))}
 					</div>
 				</div>
-				<div className="display">
-					{/* Here I will create a class info panel component and pass it in the course information including grade and course description.*/}
-					<p style={{ color: 'black', fontSize: '1em' }}>{JSON.stringify(assignments)}</p>
-					{/* Instead of creating paragraph elements, I will create an assignment panel component and pass it in the assignments array */}
-					{assignments.map((assignment) => (
-						<p style={{ color: 'black', fontSize: '1em' }}>{JSON.stringify(assignment)}</p>
+				<div className="CourseHUD">
+					<ClassInfoPanel summary={currentCourse.summary} grade={currentCourse.grade} />
 
-					))}
+					<AssignmentPanel assignments={assignments} />
 				</div>
 			</div>
 		</div>

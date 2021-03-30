@@ -1,36 +1,3 @@
-@font-face {
-	font-family: albaS;
-	src: url(../fonts/ALBAS___.TTF);
-}
-@font-face {
-	font-family: alba;
-	src: url(../fonts/ALBA____.TTF);
-}
-@font-face {
-	font-family: stein;
-	src: url(../fonts/Literal_Reg.otf);
-}
-@font-face {
-	font-family: steinB;
-	src: url(../fonts/Literal_Bold.otf);
-}
-/*Flex*/
-/* body, */
-.AssignmentBody .mainInline,
-.classButtons,
-.display {
-	display: flex;
-}
-html {
-	background-color: #160d57;
-  color: #c56618
-}
-body{
-  margin: 0;
-}
-#root {
-	height: 100vh;
-}
 .AssignmentPage {
 	background-image: url("../images/background.png");
 	background-size: cover;
@@ -49,18 +16,9 @@ body{
 	background-color: #3b4d8f;
 	min-width: 92%;
 	max-width: 95%;
-	/* min-height: 92%; */
 	height: 95%;
-	/* margin: 30px; */
 	margin: auto;
 	border-radius: 30px;
-}
-.smallLogo {
-	display: none;
-	width: 25px;
-	position: absolute;
-	bottom: 7px;
-	right: 7px;
 }
 .mainInline {
 	width: 100%;
@@ -100,7 +58,7 @@ body{
 .classButtons button.active {
 	background-color: #ed8734;
 }
-.display {
+.CourseHUD {
 	background-color: white;
 	position: static;
 	width: auto;
@@ -112,6 +70,7 @@ body{
 	margin-left: 20px;
 	margin-right: 20px;
 	padding-left: 20px;
+	display: flex;
 	flex: 1 1 auto;
 	border: 3px solid #160d57;
 }
