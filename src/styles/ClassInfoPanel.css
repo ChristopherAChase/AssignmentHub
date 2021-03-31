@@ -1,37 +1,51 @@
 #classPanel {
 	flex-direction: column;
 	margin-right: 1em;
-	width: 48.5%;
+	width: 100%;
 	height: 100%;
+	display: grid;
+	grid-template-rows: min-content ;
+	row-gap: .5em;
+	padding: .5em;
+	box-sizing: border-box;
+	min-height: 0;
 }
 
 #courseGrade {
-	font-size: 1.9em;
-	font-family: stein;
-	color: white;
 	background-color: #160d57;
 	border-radius: 20px;
 	width: fit-content;
 	padding-right: 1.5em;
 	padding-left: 1.5em;
-	line-height: 1.9em;
+	padding: 1.25em;
+	display: flex;
+	align-items: center;
+	height: fit-content;
+}
+#courseGrade p {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	font-size: 1.9em;
+	font-family: stein;
+	color: white;
 }
 #courseSummary {
 	font-family: stein;
 	color: white;
 	background-color: #160d57;
 	padding: 20px;
-	height: 60%;
+	height: 100%;
 	border-radius: 20px;
+	display: table;
 }
 
 #courseSummary h3 {
-	height: 10%;
-	margin: 0;
+	margin: .5em 0;
 }
 
 #courseSummary p {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
 	overflow: auto;
-	height: 90%;
 	margin: 0;
 }

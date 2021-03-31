@@ -4,10 +4,9 @@ import AssignmentPanel from './AssignmentPanel';
 import '../styles/AssignmentPage.css';
 
 const Assignments = (props) => {
-
-	const courses = props.pageData
-	const [currentCourse, selectCurrentCourse] = useState(courses[0]);
-	const [assignments, setAssignments] = useState(currentCourse.assignments);
+	const courses = props.pageData;
+	const [ currentCourse, selectCurrentCourse ] = useState(courses[0]);
+	const [ assignments, setAssignments ] = useState(currentCourse.assignments);
 
 	const changeCourse = (courseName) => {
 		// const course = props.pageData.filter((course) => course.name === courseName);
@@ -18,7 +17,7 @@ const Assignments = (props) => {
 
 	return (
 		<div className="AssignmentPage">
-			<div className="AssignmentBody">
+			<div className="AssignmentBody ">
 				<div className="mainInline">
 					<h1 className="AssignmentHeader">Assignment App</h1>
 					<div className="classButtons">

@@ -17,11 +17,6 @@
 * {
 	font-family: stein;
 }
-/*Flex*/
-.AssignmentBody .mainInline,
-.classButtons {
-	display: flex;
-}
 html {
 	background-color: #160d57;
 }
@@ -40,6 +35,6 @@ body {
 }
 .whiteFont {
 	color: white;
-	font-size: 26px;
+	font-size: 1.5em;
 	margin-bottom: 5px;
 }
