@@ -4,12 +4,14 @@ import AssignmentPanel from './AssignmentPanel';
 import '../styles/AssignmentPage.css';
 
 const Assignments = (props) => {
-	const courses = props.pageData.map((course) => course);
-	const [ currentCourse, selectCurrentCourse ] = useState(courses[0]);
-	const [ assignments, setAssignments ] = useState(currentCourse.assignments);
+
+	const courses = props.pageData
+	const [currentCourse, selectCurrentCourse] = useState(courses[0]);
+	const [assignments, setAssignments] = useState(currentCourse.assignments);
 
 	const changeCourse = (courseName) => {
-		const course = props.pageData.filter((course) => course.name === courseName);
+		// const course = props.pageData.filter((course) => course.name === courseName);
+		const course = courses.filter((course) => course.name === courseName);
 		selectCurrentCourse(course[0]);
 		setAssignments(course[0].assignments);
 	};
@@ -20,7 +22,7 @@ const Assignments = (props) => {
 				<div className="mainInline">
 					<h1 className="AssignmentHeader">Assignment App</h1>
 					<div className="classButtons">
-						{props.pageData.map((course) => (
+						{courses.map((course) => (
 							<button
 								className={currentCourse.name === course.name ? 'active' : ''}
 								onClick={() => changeCourse(course.name)}

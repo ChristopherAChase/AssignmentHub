@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AssignmentCard from './AssignmentCard';
 import '../styles/AssignmentPanel.css';
 
 const AssignmentPanel = (props) => {
@@ -6,8 +7,8 @@ const AssignmentPanel = (props) => {
 
 	return (
 		<div id="assignmentPanel">
-			{assignments.map((assignment) => (
-				<p style={{ color: 'black', fontSize: '1em' }}>{JSON.stringify(assignment)}</p>
+			{assignments.map((currentAssignment) => (
+				<AssignmentCard key={currentAssignment.name} assignment={currentAssignment} />
 			))}
 		</div>
 	);
