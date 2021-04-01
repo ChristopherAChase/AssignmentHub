@@ -1,5 +1,5 @@
 .AssignmentPage {
-	background-image: url("../images/background.png");
+	background-image: url("../images/background3.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -13,14 +13,14 @@
 .AssignmentBody {
 	flex-direction: column;
 	background-color: #3b4d8f;
-	max-width: 95%;
+	max-width: 65%;
 	/* min-height: 95%; */
 	min-height: 95vh;
 	margin: auto;
 	padding: 1em;
 	border-radius: 30px;
 	display: grid;
-	grid-auto-rows: min-content;
+	grid-template-rows: min-content auto;
 	row-gap: 1em;
 	box-sizing: border-box;
 }

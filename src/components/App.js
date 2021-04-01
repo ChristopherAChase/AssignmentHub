@@ -20,6 +20,8 @@ function App() {
 		return <Login changePage={changePage} storeResponse={storeData} />;
 	} else if (page === 'assignments') {
 		return <Assignments changePage={changePage} pageData={pageData} />;
+	} else if (page === 'select') {
+		return <Select changePage={changePage} />;
 	}
 }
 

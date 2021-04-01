@@ -1,6 +1,7 @@
 [
     {
-        "name": "CIS 296 30C O - Adv MS Web Dev",
+        "name": "Adv MS Web Dev",
+        "code": "CIS 296",
         "grade": "A (92.17%)",
         "summary": "Welcome During this course we will work on developing multi-page ASP.NET Core MVC applications that use databases. We will use Bootstrap to create a responsive web applications, in addition we will work on testing and debugging these applications. We will expand on some skills such as Razor views, model binding, data validation, EF (Entity Framework) Core, session state and cookies. This course will present skills that will take your web development to a professional level. We will also work with dependency injection (DI), unit testing, custom tag helpers, partial views, view components, authentication, and authorization. You will apply the programming skills that you will learn in ASP.NET Core MVC by developing a website called SportsProTechnical Support. The purpose of this website is to track technical support service calls (incidents) in a database that also stores information about the company's customers, software products, and technicians. Prerequisites:  CIS 131 C# Programming (or equivalent), and CIS 296 Textbook: Murach's ASP.NET Core MVC, Delamater & Murach ISBN: 978-1-943872-49-7",
         "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz",
@@ -42,14 +43,15 @@
         ]
     },
     {
-        "name": "CIS 293 30C O - Advanced Technologies",
+        "name": "Advanced Technologies",
+        "code": "CIS 293",
         "grade": "A- (91.96%)",
         "summary": "Welcome to the CIS 293 Advanced Technologies. This course will allow students to explore/research new technologies in the IT world, make use of the technologies, and present/demonstrate the technology to their classmates in a classroom setting.  This course does not have a book.",
         "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__293/2020_SP-CIS__293-30C__O/Coursework.jnz",
         "assignments": [
             {
                 "name": "Presentation 3",
-                "due_date": "Thursday 4/1, 11:55 PM",
+                "due_date": "Tomorrow, 11:55 PM",
                 "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__293/2020_SP-CIS__293-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=78bfb75a-1121-48b6-93ab-e23a15798db9",
                 "instructions": [
                     "Please submit all work (PowerPoint, software that you wrote, etc) and your team evaluation form - which includes an evaluation of yourself."
@@ -77,14 +79,15 @@
         ]
     },
     {
-        "name": "CIS 299 1C - Internship",
+        "name": "Internship",
+        "code": "CIS 299",
         "grade": "A+ (100%)",
         "summary": "CIS 299 Internship Students will obtain actual work experience within their field of study. T hey will have the opportunity to apply knowledge learned in their completed CIS courses to real business situations and will continue to develop their technical skills and increase their comprehension of their profession by working with and learning from professionals within the computer technology industry. A minimum of eighteen contact hours per week during the semester are required to earn 3 credit hours approximately 288 hours total). Prerequisites: CIS 130 Introduction to Programming plus minimum 4 credits in one programming language.",
         "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__299/2020_SP-CIS__299-1C/Coursework.jnz",
         "assignments": [
             {
                 "name": "Weekly Report - Week #11",
-                "due_date": "Today, 11:55 PM",
+                "due_date": "Yesterday, Accepting late work",
                 "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__299/2020_SP-CIS__299-1C/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=ef87f896-e127-41bc-a351-9c9cf3642beb",
                 "instructions": [
                     "NOTE: There is only a one-day extension beyond the posted due date for this last weekly report.",

@@ -8,9 +8,9 @@ const Assignments = (props) => {
 	const [ currentCourse, selectCurrentCourse ] = useState(courses[0]);
 	const [ assignments, setAssignments ] = useState(currentCourse.assignments);
 
-	const changeCourse = (courseName) => {
+	const changeCourse = (courseCode) => {
 		// const course = props.pageData.filter((course) => course.name === courseName);
-		const course = courses.filter((course) => course.name === courseName);
+		const course = courses.filter((course) => course.code === courseCode);
 		selectCurrentCourse(course[0]);
 		setAssignments(course[0].assignments);
 	};
@@ -23,16 +23,20 @@ const Assignments = (props) => {
 					<div className="classButtons">
 						{courses.map((course) => (
 							<button
-								className={currentCourse.name === course.name ? 'active' : ''}
-								onClick={() => changeCourse(course.name)}
+								className={currentCourse.code === course.code ? 'active' : ''}
+								onClick={() => changeCourse(course.code)}
 							>
-								{course.name}
+								{course.code}
 							</button>
 						))}
 					</div>
 				</div>
 				<div className="CourseHUD">
-					<ClassInfoPanel summary={currentCourse.summary} grade={currentCourse.grade} />
+					<ClassInfoPanel
+						summary={currentCourse.summary}
+						grade={currentCourse.grade}
+						className={currentCourse.name}
+					/>
 
 					<AssignmentPanel assignments={assignments} />
 				</div>

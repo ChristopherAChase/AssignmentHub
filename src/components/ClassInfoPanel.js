@@ -4,8 +4,15 @@ import '../styles/ClassInfoPanel.css';
 const ClassInfoPanel = (props) => {
 	return (
 		<div id="classPanel">
-			<div id="courseGrade">
-				<p>Grade: {props.grade}</p>
+			<div id="classPanel_top">
+				<div id="courseGrade">
+					<p>{props.grade}</p>
+				</div>
+				<div id="className">
+					<p>
+						{props.className}
+					</p>
+				</div>
 			</div>
 			<div id="courseSummary">
 				<h3>Summary: </h3>
