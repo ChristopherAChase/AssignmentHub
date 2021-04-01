@@ -1,0 +1,40 @@
+@font-face {
+	font-family: alba;
+	src: url(../fonts/ALBA____.TTF);
+}
+@font-face {
+	font-family: steinB;
+	src: url(../fonts/Literal_Bold.otf);
+}
+@font-face {
+	font-family: albaS;
+	src: url(../fonts/ALBAS___.TTF);
+}
+@font-face {
+	font-family: stein;
+	src: url(../fonts/Literal_Reg.otf);
+}
+* {
+	font-family: stein;
+}
+html {
+	background-color: #160d57;
+}
+body {
+	margin: 0;
+}
+#root {
+	height: 100vh;
+}
+.smallLogo {
+	display: none;
+	width: 25px;
+	position: absolute;
+	bottom: 7px;
+	right: 7px;
+}
+.whiteFont {
+	color: white;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}

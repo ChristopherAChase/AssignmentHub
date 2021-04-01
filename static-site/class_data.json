@@ -72,3 +72,45 @@
         ]
     }
 ]
+{
+    "assignments": [
+        {
+            "due_date": "Monday 4/5, 11:55 PM",
+            "files": [
+                {
+                    "name": "Sixth-partofthe-case-study.docx",
+                    "url": "https://stinet.southeasttech.edu/ICS/icsfs/Sixth-partofthe-case-study.docx?target=46d89cce-3db4-4e21-aea3-9f6aaf92dba9"
+                }
+            ],
+            "instructions": [
+                "For the sixth part of the case study:",
+                "1.Improve Validation",
+                "2.Manage registration",
+                "3.Encapsulate the data layer"
+            ],
+            "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=f1128fa3-0ef6-4063-98fc-260e84b1299e",
+            "name": "Sixth part of the Case Study"
+        },
+        {
+            "due_date": "Monday 4/19, 11:55 PM",
+            "files": [
+                {
+                    "name": "seventhpartofthecasestudy.docx",
+                    "url": "https://stinet.southeasttech.edu/ICS/icsfs/seventhpartofthecasestudy.docx?target=ab249d2f-b5dc-4d9e-89d1-ae51924aa91a"
+                }
+            ],
+            "instructions": [
+                "This is the seventh and last part of the Case Study.",
+                "1. Automate testing",
+                "2.Use tag helpers, partial views, and view components",
+                "3.Authenticate and authorize users."
+            ],
+            "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=15932fd9-9442-4ed3-91b0-82257c17a26f",
+            "name": "Seventh Part of the Case Study"
+        }
+    ],
+    "grade": "A (92.17%)",
+    "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz",
+    "name": "CIS 296 30C O - Adv MS Web Dev",
+    "summary": "Welcome During this course we will work on developing multi-page ASP.NET Core MVC applications that use databases. We will use Bootstrap to create a responsive web applications, in addition we will work on testing and debugging these applications. We will expand on some skills such as Razor views, model binding, data validation, EF (Entity Framework) Core, session state and cookies. This course will present skills that will take your web development to a professional level. We will also work with dependency injection (DI), unit testing, custom tag helpers, partial views, view components, authentication, and authorization. You will apply the programming skills that you will learn in ASP.NET Core MVC by developing a website called SportsProTechnical Support. The purpose of this website is to track technical support service calls (incidents) in a database that also stores information about the company's customers, software products, and technicians. Prerequisites: CIS 131 C# Programming (or equivalent), and CIS 296 Textbook: Murach's ASP.NET Core MVC, Delamater & Murach ISBN: 978-1-943872-49-7"
+}

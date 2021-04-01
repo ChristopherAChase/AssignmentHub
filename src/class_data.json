@@ -1,0 +1,105 @@
+[
+    {
+        "name": "CIS 296 30C O - Adv MS Web Dev",
+        "grade": "A (92.17%)",
+        "summary": "Welcome During this course we will work on developing multi-page ASP.NET Core MVC applications that use databases. We will use Bootstrap to create a responsive web applications, in addition we will work on testing and debugging these applications. We will expand on some skills such as Razor views, model binding, data validation, EF (Entity Framework) Core, session state and cookies. This course will present skills that will take your web development to a professional level. We will also work with dependency injection (DI), unit testing, custom tag helpers, partial views, view components, authentication, and authorization. You will apply the programming skills that you will learn in ASP.NET Core MVC by developing a website called SportsProTechnical Support. The purpose of this website is to track technical support service calls (incidents) in a database that also stores information about the company's customers, software products, and technicians. Prerequisites:  CIS 131 C# Programming (or equivalent), and CIS 296 Textbook: Murach's ASP.NET Core MVC, Delamater & Murach ISBN: 978-1-943872-49-7",
+        "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz",
+        "assignments": [
+            {
+                "name": "Sixth part of the Case Study",
+                "due_date": "Monday 4/5, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=f1128fa3-0ef6-4063-98fc-260e84b1299e",
+                "instructions": [
+                    "For the sixth part of the case study:",
+                    "1.Improve Validation",
+                    "2.Manage registration",
+                    "3.Encapsulate the data layer"
+                ],
+                "files": [
+                    {
+                        "name": "Sixth-partofthe-case-study.docx",
+                        "url": "https://stinet.southeasttech.edu/ICS/icsfs/Sixth-partofthe-case-study.docx?target=46d89cce-3db4-4e21-aea3-9f6aaf92dba9"
+                    }
+                ]
+            },
+            {
+                "name": "Seventh Part of the Case Study",
+                "due_date": "Monday 4/19, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__296/2020_SP-CIS__296-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=15932fd9-9442-4ed3-91b0-82257c17a26f",
+                "instructions": [
+                    "This is the seventh and last part of the Case Study.",
+                    "1. Automate testing",
+                    "2.Use tag helpers, partial views, and view components",
+                    "3.Authenticate and authorize users."
+                ],
+                "files": [
+                    {
+                        "name": "seventhpartofthecasestudy.docx",
+                        "url": "https://stinet.southeasttech.edu/ICS/icsfs/seventhpartofthecasestudy.docx?target=ab249d2f-b5dc-4d9e-89d1-ae51924aa91a"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "CIS 293 30C O - Advanced Technologies",
+        "grade": "A- (91.96%)",
+        "summary": "Welcome to the CIS 293 Advanced Technologies. This course will allow students to explore/research new technologies in the IT world, make use of the technologies, and present/demonstrate the technology to their classmates in a classroom setting.  This course does not have a book.",
+        "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__293/2020_SP-CIS__293-30C__O/Coursework.jnz",
+        "assignments": [
+            {
+                "name": "Presentation 3",
+                "due_date": "Thursday 4/1, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__293/2020_SP-CIS__293-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=78bfb75a-1121-48b6-93ab-e23a15798db9",
+                "instructions": [
+                    "Please submit all work (PowerPoint, software that you wrote, etc) and your team evaluation form - which includes an evaluation of yourself."
+                ],
+                "files": [
+                    {
+                        "name": "Team Evaluation",
+                        "url": "https://stinet.southeasttech.edu/ICS/icsfs/TEAM_MEMBER_EVALUATION.docx?target=7e2c569b-43c6-442d-8b48-0e10cb49ec23"
+                    }
+                ]
+            },
+            {
+                "name": "Topic 4 and plan",
+                "due_date": "Tuesday 4/13, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__293/2020_SP-CIS__293-30C__O/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=30675e21-93e7-409e-98e3-9624a26f7a56",
+                "instructions": [
+                    "Please send me a document with the following information:",
+                    "1. What your general topic is (language).",
+                    "2.  What do you plan to do with your topic (Create a ??? game, software to ?????).",
+                    "3.  Who are you be working with (remember two topics need to be in a group of either 2 or 3).",
+                    "Everyone in the group should turn this in"
+                ],
+                "files": []
+            }
+        ]
+    },
+    {
+        "name": "CIS 299 1C - Internship",
+        "grade": "A+ (100%)",
+        "summary": "CIS 299 Internship Students will obtain actual work experience within their field of study. T hey will have the opportunity to apply knowledge learned in their completed CIS courses to real business situations and will continue to develop their technical skills and increase their comprehension of their profession by working with and learning from professionals within the computer technology industry. A minimum of eighteen contact hours per week during the semester are required to earn 3 credit hours approximately 288 hours total). Prerequisites: CIS 130 Introduction to Programming plus minimum 4 credits in one programming language.",
+        "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__299/2020_SP-CIS__299-1C/Coursework.jnz",
+        "assignments": [
+            {
+                "name": "Weekly Report - Week #11",
+                "due_date": "Today, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__299/2020_SP-CIS__299-1C/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=ef87f896-e127-41bc-a351-9c9cf3642beb",
+                "instructions": [
+                    "NOTE: There is only a one-day extension beyond the posted due date for this last weekly report.",
+                    "The student must complete the attached Weekly Report Form and submit it to their instructor on a regular schedule agreed upon by the instructor, student, and internship supervisor. The form includes a time-log of the hours the student worked (which the internship supervisor needs to sign), and a short list of questions and observations for the week (that the intern can complete after getting supervisor's signature on the first page). If the student has permission to do so, it would be interesting if they could submit small samples of code that they've worked on during the week.",
+                    "You can upload a scanned version, or take a good photo and upload that."
+                ],
+                "files": []
+            },
+            {
+                "name": "Weekly Report - Week #12",
+                "due_date": "Tuesday 4/6, 11:55 PM",
+                "link": "https://stinet.southeasttech.edu/ICS/Academics/CIS/CIS__299/2020_SP-CIS__299-1C/Coursework.jnz?portlet=Coursework&screen=StudentAssignmentDetailView&screenType=change&id=f9158fcf-11b2-4105-a7b9-ea14a8b58f98",
+                "instructions": [],
+                "files": []
+            }
+        ]
+    }
+]

@@ -1,25 +1,26 @@
 import React, { useState } from 'react';
-import Assignments from './Assignments';
-import Select from './Select'
-import Login from './Login'
-// import '../styles/App.css';
+import Assignments from './Courses';
+import Select from './Select';
+import Login from './Login';
+import '../styles/Base.css';
 
 function App() {
-  const [page, setpage] = useState('login');
+	const [ page, setpage ] = useState('login');
+	const [ pageData, setPageData ] = useState({});
 
-  const changePage = (value) => {
-    setpage(value)
-  }
+	const changePage = (value) => {
+		setpage(value);
+	};
 
-  if (page === 'login') {
-    return <Login changePage={changePage} />
-  }
-  else if (page === 'select') {
-    return <Select changePage={changePage} />
-  }
-  else if (page === 'assignments') {
-    return <Assignments changePage={changePage} />
-  }
+	const storeData = (data) => {
+		setPageData(data);
+	};
+
+	if (page === 'login') {
+		return <Login changePage={changePage} storeResponse={storeData} />;
+	} else if (page === 'assignments') {
+		return <Assignments changePage={changePage} pageData={pageData} />;
+	}
 }
 
 export default App;

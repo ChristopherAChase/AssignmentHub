@@ -1,180 +1,182 @@
 @font-face {
-  font-family: albaS;
-  src: url(fonts/ALBAS___.TTF);
+	font-family: albaS;
+	src: url(fonts/ALBAS___.TTF);
 }
 @font-face {
-  font-family: alba;
-  src: url(fonts/ALBA____.TTF);
+	font-family: alba;
+	src: url(fonts/ALBA____.TTF);
 }
 @font-face {
-  font-family: stein;
-  src: url(fonts/Literal_Reg.otf);
+	font-family: stein;
+	src: url(fonts/Literal_Reg.otf);
 }
 @font-face {
-  font-family: steinB;
-  src: url(fonts/Literal_Bold.otf);
+	font-family: steinB;
+	src: url(fonts/Literal_Bold.otf);
 }
 /*Flex*/
 body,
 .mainInline,
 .classButtons,
 .display {
-  display: flex;
+	display: flex;
 }
 html {
-  background-color: #160d57;
-  background-image: url("images/background3.png");
-  background-size: 100%, 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-  margin: 0px;
+	background-color: #160d57;
+	background-image: url("images/background3.png");
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
 }
 body {
-  flex-direction: column;
-  background-color: #3b4d8f;
-  width: 900px;
-  min-height: 92%;
-  max-height: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-radius: 30px;
+	flex-direction: column;
+	background-color: #3b4d8f;
+	width: 900px;
+	min-height: 92%;
+	max-height: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 30px;
 }
 .mainInline {
-  width: 100%;
-  clear: both;
-  flex-direction: row;
+	width: 100%;
+	clear: both;
+	flex-direction: row;
 }
 h1 {
-  font-family: alba;
-  font-size: 37px;
-  text-align: center;
-  color: white;
-  width: 35%;
-  padding-left: 40px;
+	font-family: alba;
+	font-size: 37px;
+	text-align: center;
+	color: white;
+	width: 35%;
+	padding-left: 40px;
 }
 .classButtons {
-  justify-content: flex-end;
-  min-width: auto;
-  max-width: 65%;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-right: 25px;
+	justify-content: flex-end;
+	min-width: auto;
+	max-width: 65%;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 25px;
 }
 .classButtons button {
-  cursor: pointer;
-  font-family: steinB;
-  color: white;
-  font-size: 16px;
-  background-color: #e84a35;
-  border-radius: 20px;
-  margin-left: 5px;
-  min-width: 30%;
-  max-width: auto;
-  height: 32px;
+	cursor: pointer;
+	font-family: steinB;
+	color: white;
+	font-size: 16px;
+	background-color: #e84a35;
+	border-radius: 20px;
+	margin-left: 5px;
+	min-width: 30%;
+	max-width: auto;
+	height: 32px;
 }
 .classButtons button.active {
-  background-color: #ed8734;
+	background-color: #ed8734;
 }
 .display {
-  background-color: white;
-  position: static;
-  width: auto;
-  height: auto;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  flex: 1 1 auto;
-  border: 3px solid #160d57;
+	background-color: white;
+	position: static;
+	width: auto;
+	height: auto;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	flex: 1 1 auto;
+	border: 3px solid #160d57;
 }
 #classDiv {
-  flex-direction: column;
-  margin-right: 10px;
-  width: 100%;
-  height: 100%;
+	flex-direction: column;
+	margin-right: 10px;
+	width: 100%;
+	height: 100%;
 }
 #topLeft {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
 }
 #assignmentDiv {
-  width: 100%;
-  margin-left: 10px;
-  height: 100%;
+	width: 100%;
+	margin-left: 10px;
+	height: 100%;
 }
 #grade {
-  font-size: 30px;
-  font-family: stein;
-  color: white;
-  background-color: #160d57;
-  border-radius: 20px;
-  width: fit-content;
-  padding-right: 10px;
-  padding-left: 10px;
+	font-size: 30px;
+	font-family: stein;
+	color: white;
+	background-color: #160d57;
+	border-radius: 20px;
+	width: fit-content;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 #other {
-  font-size: 20px;
-  font-family: stein;
-  color: white;
-  width: 47%;
-  background-color: #160d57;
-  border-radius: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-left: 20px;
+	font-size: 20px;
+	font-family: stein;
+	color: white;
+	text-align: center;
+
+	width: 47%;
+	background-color: #160d57;
+	border-radius: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-left: 20px;
 }
 #classInfo {
-  font-family: stein;
-  color: white;
-  background-color: #160d57;
-  padding: 20px;
-  height: 60%;
-  width: 90%;
-  border-radius: 20px;
+	font-family: stein;
+	color: white;
+	background-color: #160d57;
+	padding: 20px;
+	height: 60%;
+	width: 90%;
+	border-radius: 20px;
 }
 #classInfo h3,
 #assignment1 h3,
 #assignment2 h3 {
-  margin-top: 5px;
-  margin-bottom: 25px;
+	margin-top: 5px;
+	margin-bottom: 25px;
 }
 #classInfo p {
-  overflow: auto;
-  height: 250px;
-  padding-right: 5px;
+	overflow: auto;
+	height: 250px;
+	padding-right: 5px;
 }
 #assignment1,
 #assignment2 {
-  float: right;
-  font-family: stein;
-  color: white;
-  background-color: #160d57;
+	float: right;
+	font-family: stein;
+	color: white;
+	background-color: #160d57;
 
-  overflow: auto;
-  width: 90%;
-  height: auto;
-  padding: 20px;
-  border-radius: 20px;
+	overflow: auto;
+	width: 90%;
+	height: auto;
+	padding: 20px;
+	border-radius: 20px;
 }
 #assignment1 {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 #assignmentDiv p {
-  overflow: auto;
-  padding-right: 5px;
-  font-size: 18px;
-  margin-bottom: 12px;
+	overflow: auto;
+	padding-right: 5px;
+	font-size: 18px;
+	margin-bottom: 12px;
 }
