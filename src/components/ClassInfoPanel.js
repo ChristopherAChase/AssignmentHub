@@ -15,7 +15,7 @@ const ClassInfoPanel = (props) => {
 				</div>
 			</div>
 			<div id="courseSummary">
-				<h3>Summary: </h3>
+				<h2>Summary: </h2>
 				<p>{props.summary}</p>
 			</div>
 		</div>

@@ -13,7 +13,6 @@ export default function Select(props) {
 			password: $('#password').val()
 		};
 
-		props.changePage('assignments');
 		if (creds.password && creds.username) {
 			const key = process.env.REACT_APP_SECRET_KEY;
 

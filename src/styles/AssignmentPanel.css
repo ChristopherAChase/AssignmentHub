@@ -3,8 +3,8 @@
 	max-height: 100%;
 	display: grid;
 	grid-template-rows: auto auto;
-	row-gap: .5em;
-	padding: .5em;
+	row-gap: 1em;
+	padding: 1em 1em 1em 0;
 	box-sizing: border-box;
 	min-height: 0;
 	overflow: auto;

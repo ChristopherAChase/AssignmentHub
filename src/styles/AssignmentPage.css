@@ -14,7 +14,7 @@
 	flex-direction: column;
 	background-color: #3b4d8f;
 	max-width: 95%;
-	min-height: 95vh;
+	height: 95vh;
 	margin: auto;
 	padding: 1em;
 	border-radius: 30px;
