@@ -3,20 +3,28 @@
 	height: 100%;
 	width: 100%;
 	margin: 0px;
+	position: relative;
 }
 .LoginBody {
-	background-color: #160d57;
+	background-color: #3b4d8f;
 	text-align: center;
 	vertical-align: center;
-	padding-top: 50px;
 	height: 495px;
-	width: 499px;
+	width: 495px;
+	position: absolute;
+	left: 50%;
+	top: 50px;
 	margin: auto;
+	border-radius: 50%;
+	transform: translateX(-50%);
 }
 .circleImage {
 	width: 510px;
 	margin-bottom: -75%;
+	margin-top: -7px;
+	margin-left: -5.5px;
 }
+
 .LoginHeader {
 	margin: 0;
 	margin-top: -10px;

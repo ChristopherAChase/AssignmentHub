@@ -50,6 +50,7 @@ export default function Select(props) {
 	return (
 		<div className="LoginPage">
 			<div className="LoginBody">
+				<div id="circleImage_background" />
 				<img className="circleImage" alt="Backgroud purple and orange swirl" src={logo4} />
 				<h1 className="LoginHeader">Welcome</h1>
 				<form id="loginForm" onSubmit={(e) => e.preventDefault()}>
