@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AssignmentCard from './AssignmentCard';
 import '../styles/AssignmentPanel.css';
 

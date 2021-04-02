@@ -13,7 +13,7 @@ export default function Select(props) {
 			password: $('#password').val()
 		};
 
-
+		props.changePage('assignments');
 		if (creds.password && creds.username) {
 			const key = process.env.REACT_APP_SECRET_KEY;
 
@@ -51,7 +51,7 @@ export default function Select(props) {
 	return (
 		<div className="LoginPage">
 			<div className="LoginBody">
-				<img className="circleImage" src={logo4} />
+				<img className="circleImage" alt="Backgroud purple and orange swirl" src={logo4} />
 				<h1 className="LoginHeader">Welcome</h1>
 				<form id="loginForm" onSubmit={(e) => e.preventDefault()}>
 					<p className="whiteFont">Enter school login</p>

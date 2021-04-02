@@ -6,7 +6,7 @@ export default function Select(props) {
     return (
         <div className="selectPage">
             <div className="selectBody">
-                <img className="circleImage" src={logo4} />
+                <img className="circleImage" alt="Backgroud purple and orange swirl" src={logo4} />
                 <h1 className="selectHeader">Welcome</h1>
                 <form>
                     <label>Select a school: </label>
